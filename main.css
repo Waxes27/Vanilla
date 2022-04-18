@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+}
+
+.appbar {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.531);
+    transition: all 1s;
+    position: fixed;
+    width: 100%;
+}
+
+.appbar-items {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+}
+
+.appbar-item a {
+    padding: 15px;
+    color: rgba(252, 252, 153, 0.639);
+    text-decoration: none;
+    border-radius: 40px;
+    transition: all 1s;
+}
+
+.appbar-item a:hover {
+    padding: 30px 100px;
+    background-color: rgba(255, 228, 196, 0.462);
+}
+
+.appbar:hover {
+    padding: 90px;
+}
+
+.main-body {
+    margin: auto;
+    display: flex;
+    width: 50%;
+    height: max-content;
+    flex-direction: column;
+    /* justify-items: center; */
+    /* background-color: blue; */
+    /* align-items: center; */
+}
+
+.main-body>h1 {
+    padding: 200px;
+    margin: auto;
+}
+
+p {
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.navbar {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.531);
+    position: fixed;
+    bottom: 0;
+    transition: all 1s;
+    width: 100%;
+}
+
+.navbar:hover {
+    padding: 50px;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    font-size: x-large;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 1s;
+}
+
+.icon:hover {
+    padding: 30px 100px;
+    border-radius: 100px;
+    background-color: rgba(252, 252, 153, 0.639);
+    color: whitesmoke;
+}
